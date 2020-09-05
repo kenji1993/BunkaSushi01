@@ -1,0 +1,29 @@
+:root {
+    --background-page: url(../img/fondo.jpg);
+    --font-size: 1.6rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: var(--background-page);
+}
+
+header {
+    width: 100vw;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.logo {
+    border-radius: 15rem;
+}
