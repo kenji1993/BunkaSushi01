@@ -26,4 +26,29 @@ header {
 }
 .logo {
     border-radius: 15rem;
+    z-index: -1;
+    height: 30vh;
+    position: absolute;
+    z-index: 3;
+    right: 59rem;
+    top: 6rem;
+}
+
+main {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+}
+
+.left-box {
+    width: 50%;
+    height: 75vh;
+    border-right: 0.3rem solid black;
+    border-top: 0.7rem solid black;
+}
+.right-box {
+    width: 50%;
+    height: 75vh;
+    border-left: 0.5rem solid black;
+    border-top: 0.7rem solid black;
 }
