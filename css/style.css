@@ -1,6 +1,10 @@
 :root {
     --background-page: url(../img/fondo.jpg);
     --font-size: 1.6rem;
+    --header: 15vh;
+    --header-background: rgba(72, 22, 14, 0.89);
+    --main: 85vh;
+    --main-background: rgba(0, 0, 0, 0.6);
 }
 
 * {
@@ -18,41 +22,19 @@ body {
 }
 
 header {
-    width: 100vw;
-    height: 15vh;
+    background-color: var(--header-background);
+    height: 20vh;
     display: flex;
     justify-content: center;
-    padding-top: 1rem;
-   
-}
-.logo {
-    border-radius: 15rem;
-    height: 30vh;
-    width: 60%;
-    height: auto;
 }
 
-ul li {
-    list-style: none;
-    display: inline-block;
-}
-ul li i {
-    font-size: 4rem;
+.logo {
+    border-radius: 15rem;
+    height: 17rem;
 }
 
 main {
-    width: 100vw;
-    height: 50vh;
-    display: flex;
+    background-color: var(--main-background);
+    height: 80vh;
 }
 
-.left-box {
-    width: 50%;
-    height: 75vh;
-
-}
-.right-box {
-    width: 50%;
-    height: 75vh;
-   
-}
