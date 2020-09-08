@@ -19,6 +19,8 @@ html {
 
 body {
     background-image: var(--background-page);
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 header {
@@ -34,3 +36,36 @@ header {
     margin-top: 1rem;
 }
 
+.container {
+    margin-top: 5rem;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box  {
+    display: flex;
+    justify-content: center;
+    height: 40rem;
+    font-size: 1.6rem;
+    background-color: var(--main-background);
+    padding: 2rem;
+    color: white;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+ul li {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.container-mapa {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
