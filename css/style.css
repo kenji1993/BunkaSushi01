@@ -54,10 +54,12 @@ header {
     background-color: var(--main-background);
     padding: 2rem;
     color: white;
+    border-radius: 1rem;
 }
 .right-box {
    height: 40rem;
    background-color: var(--main-background);
+   border-radius: 1rem;
 }
 .right-box-container {
     padding-top: 10rem;
