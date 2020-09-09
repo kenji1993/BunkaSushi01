@@ -6,7 +6,10 @@
     --main: 85vh;
     --main-background: rgba(0, 0, 0, 0.6);
     --font-family:  'Roboto', sans-serif;
+    --transiciones: all 700ms ease;
+    --transformaciones: scale(1.25)
 }
+
 
 * {
     box-sizing: border-box;
@@ -37,6 +40,31 @@ header {
     height: 17rem;
     margin-top: 1rem;
 }
+
+.redes-sociales {
+    left: 1;
+    position: fixed;
+    top: 25rem;
+    margin-left: 1rem;
+    -webkit-transition: var(--transiciones);
+    -o-transition: var(--transiciones);
+    -moz-transition: var(--transiciones);
+    -ms-transition: var(--transiciones);
+    transition: var(--transiciones);
+}
+
+.redes-sociales ul li a i {
+    font-size: 5rem;
+    margin: 0.5rem;
+}
+
+.redes-sociales ul li a :hover  {
+    -webkit-transform: var(--transformaciones);
+    -o-transform: var(--transformaciones);
+    -moz-transform: var(--transformaciones); 
+    -ms-transform: var(--transformaciones); 
+    transform: var(--transformaciones); 
+  }
 
 .container {
     margin-top: 5rem;
@@ -70,7 +98,7 @@ p {
 }
 
 .right-box-container {
-    padding-top: 10rem;
+    padding-top: 7rem;
 }
 
 .horarios {
