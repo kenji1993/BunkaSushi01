@@ -9,6 +9,10 @@
     .left-box {
         margin-top: 1rem;
         height: 45rem;
+        padding: 1rem;
+    }
+    .right-box-container {
+        margin-bottom: 1rem;
     }
     .redes-sociales {
         left: 1;
