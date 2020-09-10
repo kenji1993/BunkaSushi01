@@ -1,0 +1,9 @@
+
+@media (max-width: 989px) {
+    .left-box p {
+        line-height: 3rem;
+    }
+    .right-box-container {
+        padding-top: 4rem;
+    }
+}
