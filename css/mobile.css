@@ -1,14 +1,23 @@
 
 @media (max-width: 770px) {
+    .principal {
+        display: flex;
+        justify-content: center;
+    }
+
     .right-box,
     .left-box {
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
     .redes-sociales {
         left: 1;
         top: 1rem;
+        position: relative;
         margin-left: 1rem;
        
+    }
+    .redes-sociales ul li {
+        display: inline;
     }
 
 }
