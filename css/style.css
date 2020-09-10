@@ -182,3 +182,16 @@ iframe {
     border: var(--border);
 }
 
+@media (max-width: 1254px) {
+    .redes-sociales {
+        left: 1;
+        top: 1rem;
+        position: relative;
+        margin-left: 1rem;
+       
+    }
+    .redes-sociales ul li {
+        display: inline;
+    }
+}
+
