@@ -85,10 +85,15 @@ header {
     padding: 2rem;
     color: white;
     border-radius: 1rem;
+    
 }
 
 p {
     line-height: 4rem;
+}
+
+.right-box-container {
+    padding-top: 7rem;
 }
 
 .right-box {
@@ -97,9 +102,13 @@ p {
    border-radius: 1rem;
 }
 
-.right-box-container {
-    padding-top: 7rem;
+h4 {
+    text-decoration: underline;
+    color: white;
+    font-size: 2rem;
+    margin-left: 2rem;
 }
+
 
 .horarios {
     font-size: 1.8rem;
@@ -158,3 +167,16 @@ ul li button a {
     margin-bottom: 5rem;
 }
 
+@media (max-width: 770px) {
+    .right-box,
+    .left-box {
+        margin-top: 2rem;
+    }
+
+}
+
+@media (max-width: 989px) {
+    .left-box p {
+        line-height: 3rem;
+    }
+}
