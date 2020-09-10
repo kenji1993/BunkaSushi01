@@ -6,5 +6,8 @@
     .right-box-container {
         padding-top: 4rem;
     }
-  
+  .left-box,
+  .right-box {
+      height: 47rem;
+  }
 }

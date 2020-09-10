@@ -94,7 +94,7 @@ p {
 }
 
 .right-box-container {
-    padding-top: 7rem;
+    padding-top: 4rem;
 }
 
 .right-box {
@@ -110,6 +110,10 @@ h4 {
     margin-left: 2rem;
 }
 
+hr {
+    background-color: white;
+    height: 0.2rem;
+}
 
 .horarios {
     font-size: 1.8rem;
@@ -120,7 +124,10 @@ h4 {
 ul li {
     list-style: none;
     font-size: 2rem;
-  
+}
+
+ul li button {
+    margin-bottom: 0.7rem;
 }
 
 ul li a {
